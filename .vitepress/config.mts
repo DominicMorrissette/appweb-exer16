@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress"
 export default defineConfig({
   title: "Exer16 - Revue de code",
   description: "Revue de code documentée",
+  base: "/appweb-exer16/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
